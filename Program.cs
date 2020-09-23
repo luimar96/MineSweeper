@@ -7,6 +7,8 @@ namespace MineSweeper
         static void Main(string[] args)
         {
           char [,] board =new char[10,10];
+          System.Console.WriteLine("    A   B   C   D   E   F   G   H   I   J");
+           System.Console.WriteLine("+------------------------------------------");
           for (int row = 0; row < 10; row++)
           {
               System.Console.Write(row+ " | ");
