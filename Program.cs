@@ -7,12 +7,13 @@ namespace MineSweeper
         static void Main(string[] args)
         {
           char [,] board =new char[10,10];
-
+           
              //initialize
           for (int row = 0; row < 10; row++)
           {
               for (int col = 0; col < 10; col++)
               {
+
                   board[row,col]='X';
               }
               
@@ -20,8 +21,8 @@ namespace MineSweeper
           
          
           
-          Console.WriteLine("  A B C D E F G H I J");
-           System.Console.WriteLine("+---------------------");
+          Console.WriteLine("    A B C D E F G H I J");
+          Console.WriteLine("  +---------------------");
           for (int row = 0; row < 10; row++)
           {
               
