@@ -1,0 +1,664 @@
+ mine: 1, 9
+ mine: 2, 7
+ mine: 3, 5
+ mine: 3, 8
+ mine: 4, 9
+ mine: 6, 2
+ mine: 7, 1
+ mine: 8, 5
+ mine: 8, 9
+ mine: 9, 4
+    A B C D E F G H I J
+  +--------------------
+0 | X X X X X X X X X X 
+1 | X X X X X X X X X X 
+2 | X X X X X X X X X X 
+3 | X X X X X X X X X X 
+4 | X X X X X X X X X X 
+5 | X X X X X X X X X X 
+6 | X X X X X X X X X X 
+7 | X X X X X X X X X X 
+8 | X X X X X X X X X X 
+9 | X X X X X X X X X X 
+f = flagga r = reveal q = quit
+>     A B C D E F G H I J
+  +--------------------
+0 | X X X X X X X X X X 
+1 | X X X X X X X F X X 
+2 | X X X X X X X X X X 
+3 | X X X X X X X X X X 
+4 | X X X X X X X X X X 
+5 | X X X X X X X X X X 
+6 | X X X X X X X X X X 
+7 | X X X X X X X X X X 
+8 | X X X X X X X X X X 
+9 | X X X X X X X X X X 
+f = flagga r = reveal q = quit
+>     A B C D E F G H I J
+  +--------------------
+0 | X X X X X X X X X X 
+1 | X X X X X X X F X X 
+2 | X X X X X X F X X X 
+3 | X X X X X X X X X X 
+4 | X X X X X X X X X X 
+5 | X X X X X X X X X X 
+6 | X X X X X X X X X X 
+7 | X X X X X X X X X X 
+8 | X X X X X X X X X X 
+9 | X X X X X X X X X X 
+f = flagga r = reveal q = quit
+>     A B C D E F G H I J
+  +--------------------
+0 | X X X X X X X X X X 
+1 | X X X X X X X F X X 
+2 | X X X X X X F X X X 
+3 | X X X X X X X X X X 
+4 | X X X X X X X X X F 
+5 | X X X X X X X X X X 
+6 | X X X X X X X X X X 
+7 | X X X X X X X X X X 
+8 | X X X X X X X X X X 
+9 | X X X X X X X X X X 
+f = flagga r = reveal q = quit
+>     A B C D E F G H I J
+  +--------------------
+0 | X X X X X X X X X X 
+1 | X X X X X X X F X X 
+2 | X X X X X X F X X X 
+3 | X X X X X X X X X X 
+4 | X X X X X X X X X F 
+5 | X X X F X X X X X X 
+6 | X X X X X X X X X X 
+7 | X X X X X X X X X X 
+8 | X X X X X X X X X X 
+9 | X X X X X X X X X X 
+f = flagga r = reveal q = quit
+>     A B C D E F G H I J
+  +--------------------
+0 | X X X X X X X X X X 
+1 | X X X X X X X F X X 
+2 | X X X X X X F X X X 
+3 | X X X X X X X X X X 
+4 | X X X X X X X X X F 
+5 | X X X F X X X X F X 
+6 | X X X X X X X X X X 
+7 | X X X X X X X X X X 
+8 | X X X X X X X X X X 
+9 | X X X X X X X X X X 
+f = flagga r = reveal q = quit
+>     A B C D E F G H I J
+  +--------------------
+0 | X X X X X X X X X X 
+1 | X X X X X X X F X X 
+2 | X X X X X X F X X X 
+3 | X X X X X X X X X X 
+4 | X X X X X X X X X F 
+5 | X X X F X X X X F X 
+6 | X X X X X X X X X X 
+7 | X X F X X X X X X X 
+8 | X X X X X X X X X X 
+9 | X X X X X X X X X X 
+f = flagga r = reveal q = quit
+>     A B C D E F G H I J
+  +--------------------
+0 | X X X X X X X X X X 
+1 | X X X X X X X F X X 
+2 | X X X X X X F X X X 
+3 | X X X X X X X X X X 
+4 | X X X X X X X X X F 
+5 | X X X F X X X X F X 
+6 | X X X X X X X X X X 
+7 | X X F X X X X X X X 
+8 | X X X F X X X X X X 
+9 | X X X X X X X X X X 
+f = flagga r = reveal q = quit
+>     A B C D E F G H I J
+  +--------------------
+0 | X X X X X X X X X X 
+1 | X X X X X X X F X X 
+2 | X X X X X X F X X X 
+3 | X X X X X X X X X X 
+4 | X X X X X X X X X F 
+5 | X X X F X X X X F X 
+6 | X X X X X X X X X X 
+7 | X X F X X X X X X X 
+8 | X X X F X X X X X X 
+9 | X F X X X X X X X X 
+f = flagga r = reveal q = quit
+>     A B C D E F G H I J
+  +--------------------
+0 | X X X X X X X X X X 
+1 | X X X X X X X F X X 
+2 | X X X X X X F X X X 
+3 | X X X X X X X X X X 
+4 | X X X X X X X X X F 
+5 | X X X F X X X X F X 
+6 | X X X X X X X X X X 
+7 | X X F X X X X X X X 
+8 | X X X F X X X X X X 
+9 | X F X X F X X X X X 
+f = flagga r = reveal q = quit
+>     A B C D E F G H I J
+  +--------------------
+0 | X X X X X X X X X X 
+1 | X X X X X X X F X X 
+2 | X X X X X X F X X X 
+3 | X X X X X X X X X X 
+4 | X X X X X X X X X F 
+5 | X X X F X X X X F X 
+6 | X X X X X X X X X X 
+7 | X X F X X X X X X X 
+8 | X X X F X X X X X X 
+9 | X F X X F X X X F X 
+f = flagga r = reveal q = quit
+> not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+not allowed
+    A B C D E F G H I J
+  +--------------------
+0 | . . . . . . . . 1 X 
+1 | . . . . . . 1 F 2 X 
+2 | . . . . 1 1 F X X X 
+3 | . . . . 1 X X X X X 
+4 | . . . . 1 1 1 1 2 F 
+5 | . 1 1 F . . . . F 1 
+6 | 1 2 X 1 . . . . . . 
+7 | X X F 1 1 1 1 . 1 1 
+8 | X X X F X X 1 . 1 X 
+9 | X F X X F X 1 . F X 
+f = flagga r = reveal q = quit
+> not allowed
+    A B C D E F G H I J
+  +--------------------
+0 | . . . . . . . . 1 X 
+1 | . . . . . . 1 F 2 X 
+2 | . . . . 1 1 F X X X 
+3 | . . . . 1 X X X X X 
+4 | . . . . 1 1 1 1 2 F 
+5 | . 1 1 F . . . . F 1 
+6 | 1 2 X 1 . . . . . . 
+7 | X X F 1 1 1 1 . 1 1 
+8 | X X X F X X 1 . 1 X 
+9 | X F X X F X 1 . F X 
+f = flagga r = reveal q = quit
+> not allowed
+    A B C D E F G H I J
+  +--------------------
+0 | . . . . . . . . 1 X 
+1 | . . . . . . 1 F 2 X 
+2 | . . . . 1 1 F X X X 
+3 | . . . . 1 X X X X X 
+4 | . . . . 1 1 1 1 2 F 
+5 | . 1 1 F . . . . F 1 
+6 | 1 2 X 1 . . . . . . 
+7 | X X F 1 1 1 1 . 1 1 
+8 | X X X F X X 1 . 1 X 
+9 | X F X X F X 1 . F X 
+f = flagga r = reveal q = quit
+> not allowed
+    A B C D E F G H I J
+  +--------------------
+0 | . . . . . . . . 1 X 
+1 | . . . . . . 1 F 2 X 
+2 | . . . . 1 1 F X X X 
+3 | . . . . 1 X X X X X 
+4 | . . . . 1 1 1 1 2 F 
+5 | . 1 1 F . . . . F 1 
+6 | 1 2 X 1 . . . . . . 
+7 | X X F 1 1 1 1 . 1 1 
+8 | X X X F X X 1 . 1 X 
+9 | X F X X F X 1 . F X 
+f = flagga r = reveal q = quit
+> not allowed
+    A B C D E F G H I J
+  +--------------------
+0 | . . . . . . . . 1 X 
+1 | . . . . . . 1 F 2 X 
+2 | . . . . 1 1 F X X X 
+3 | . . . . 1 X X X X X 
+4 | . . . . 1 1 1 1 2 F 
+5 | . 1 1 F . . . . F 1 
+6 | 1 2 X 1 . . . . . . 
+7 | X X F 1 1 1 1 . 1 1 
+8 | X X X F X X 1 . 1 X 
+9 | X F X X F X 1 . F X 
+f = flagga r = reveal q = quit
+> not allowed
+    A B C D E F G H I J
+  +--------------------
+0 | . . . . . . . . 1 X 
+1 | . . . . . . 1 F 2 X 
+2 | . . . . 1 1 F X X X 
+3 | . . . . 1 X X X X X 
+4 | . . . . 1 1 1 1 2 F 
+5 | . 1 1 F . . . . F 1 
+6 | 1 2 X 1 . . . . . . 
+7 | X X F 1 1 1 1 . 1 1 
+8 | X X X F X X 1 . 1 X 
+9 | X F X X F X 1 . F X 
+f = flagga r = reveal q = quit
+> not allowed
+    A B C D E F G H I J
+  +--------------------
+0 | . . . . . . . . 1 X 
+1 | . . . . . . 1 F 2 X 
+2 | . . . . 1 1 F X X X 
+3 | . . . . 1 X X X X X 
+4 | . . . . 1 1 1 1 2 F 
+5 | . 1 1 F . . . . F 1 
+6 | 1 2 X 1 . . . . . . 
+7 | X X F 1 1 1 1 . 1 1 
+8 | X X X F X X 1 . 1 X 
+9 | X F X X F X 1 . F X 
+f = flagga r = reveal q = quit
+> not allowed
+    A B C D E F G H I J
+  +--------------------
+0 | . . . . . . . . 1 X 
+1 | . . . . . . 1 F 2 X 
+2 | . . . . 1 1 F X X X 
+3 | . . . . 1 X X X X X 
+4 | . . . . 1 1 1 1 2 F 
+5 | . 1 1 F . . . . F 1 
+6 | 1 2 X 1 . . . . . . 
+7 | X X F 1 1 1 1 . 1 1 
+8 | X X X F X X 1 . 1 X 
+9 | X F X X F X 1 . F X 
+f = flagga r = reveal q = quit
+> not allowed
+    A B C D E F G H I J
+  +--------------------
+0 | . . . . . . . . 1 X 
+1 | . . . . . . 1 F 2 X 
+2 | . . . . 1 1 F X X X 
+3 | . . . . 1 X X X X X 
+4 | . . . . 1 1 1 1 2 F 
+5 | . 1 1 F . . . . F 1 
+6 | 1 2 X 1 . . . . . . 
+7 | X X F 1 1 1 1 . 1 1 
+8 | X X X F X X 1 . 1 X 
+9 | X F X X F X 1 . F X 
+f = flagga r = reveal q = quit
+>     A B C D E F G H I J
+  +--------------------
+0 | . . . . . . . . 1 1 
+1 | . . . . . . 1 F 2 X 
+2 | . . . . 1 1 F X X X 
+3 | . . . . 1 X X X X X 
+4 | . . . . 1 1 1 1 2 F 
+5 | . 1 1 F . . . . F 1 
+6 | 1 2 X 1 . . . . . . 
+7 | X X F 1 1 1 1 . 1 1 
+8 | X X X F X X 1 . 1 X 
+9 | X F X X F X 1 . F X 
+f = flagga r = reveal q = quit
+> not allowed
+    A B C D E F G H I J
+  +--------------------
+0 | . . . . . . . . 1 1 
+1 | . . . . . . 1 F 2 X 
+2 | . . . . 1 1 F X X X 
+3 | . . . . 1 X X X X X 
+4 | . . . . 1 1 1 1 2 F 
+5 | . 1 1 F . . . . F 1 
+6 | 1 2 X 1 . . . . . . 
+7 | X X F 1 1 1 1 . 1 1 
+8 | X X X F X X 1 . 1 X 
+9 | X F X X F X 1 . F X 
+f = flagga r = reveal q = quit
+> not allowed
+    A B C D E F G H I J
+  +--------------------
+0 | . . . . . . . . 1 1 
+1 | . . . . . . 1 F 2 X 
+2 | . . . . 1 1 F X X X 
+3 | . . . . 1 X X X X X 
+4 | . . . . 1 1 1 1 2 F 
+5 | . 1 1 F . . . . F 1 
+6 | 1 2 X 1 . . . . . . 
+7 | X X F 1 1 1 1 . 1 1 
+8 | X X X F X X 1 . 1 X 
+9 | X F X X F X 1 . F X 
+f = flagga r = reveal q = quit
+> not allowed
+    A B C D E F G H I J
+  +--------------------
+0 | . . . . . . . . 1 1 
+1 | . . . . . . 1 F 2 X 
+2 | . . . . 1 1 F X X X 
+3 | . . . . 1 X X X X X 
+4 | . . . . 1 1 1 1 2 F 
+5 | . 1 1 F . . . . F 1 
+6 | 1 2 X 1 . . . . . . 
+7 | X X F 1 1 1 1 . 1 1 
+8 | X X X F X X 1 . 1 X 
+9 | X F X X F X 1 . F X 
+f = flagga r = reveal q = quit
+> not allowed
+    A B C D E F G H I J
+  +--------------------
+0 | . . . . . . . . 1 1 
+1 | . . . . . . 1 F 2 X 
+2 | . . . . 1 1 F X X X 
+3 | . . . . 1 X X X X X 
+4 | . . . . 1 1 1 1 2 F 
+5 | . 1 1 F . . . . F 1 
+6 | 1 2 X 1 . . . . . . 
+7 | X X F 1 1 1 1 . 1 1 
+8 | X X X F X X 1 . 1 X 
+9 | X F X X F X 1 . F X 
+f = flagga r = reveal q = quit
+> not allowed
+    A B C D E F G H I J
+  +--------------------
+0 | . . . . . . . . 1 1 
+1 | . . . . . . 1 F 2 X 
+2 | . . . . 1 1 F X X X 
+3 | . . . . 1 X X X X X 
+4 | . . . . 1 1 1 1 2 F 
+5 | . 1 1 F . . . . F 1 
+6 | 1 2 X 1 . . . . . . 
+7 | X X F 1 1 1 1 . 1 1 
+8 | X X X F X X 1 . 1 X 
+9 | X F X X F X 1 . F X 
+f = flagga r = reveal q = quit
+> not allowed
+    A B C D E F G H I J
+  +--------------------
+0 | . . . . . . . . 1 1 
+1 | . . . . . . 1 F 2 X 
+2 | . . . . 1 1 F X X X 
+3 | . . . . 1 X X X X X 
+4 | . . . . 1 1 1 1 2 F 
+5 | . 1 1 F . . . . F 1 
+6 | 1 2 X 1 . . . . . . 
+7 | X X F 1 1 1 1 . 1 1 
+8 | X X X F X X 1 . 1 X 
+9 | X F X X F X 1 . F X 
+f = flagga r = reveal q = quit
+> not allowed
+    A B C D E F G H I J
+  +--------------------
+0 | . . . . . . . . 1 1 
+1 | . . . . . . 1 F 2 X 
+2 | . . . . 1 1 F X X X 
+3 | . . . . 1 X X X X X 
+4 | . . . . 1 1 1 1 2 F 
+5 | . 1 1 F . . . . F 1 
+6 | 1 2 X 1 . . . . . . 
+7 | X X F 1 1 1 1 . 1 1 
+8 | X X X F X X 1 . 1 X 
+9 | X F X X F X 1 . F X 
+f = flagga r = reveal q = quit
+> not allowed
+    A B C D E F G H I J
+  +--------------------
+0 | . . . . . . . . 1 1 
+1 | . . . . . . 1 F 2 X 
+2 | . . . . 1 1 F X X X 
+3 | . . . . 1 X X X X X 
+4 | . . . . 1 1 1 1 2 F 
+5 | . 1 1 F . . . . F 1 
+6 | 1 2 X 1 . . . . . . 
+7 | X X F 1 1 1 1 . 1 1 
+8 | X X X F X X 1 . 1 X 
+9 | X F X X F X 1 . F X 
+f = flagga r = reveal q = quit
+>     A B C D E F G H I J
+  +--------------------
+0 | . . . . . . . . 1 1 
+1 | . . . . . . 1 ? 2 M 
+2 | . . . . 1 1 ? m X X 
+3 | . . . . 1 m X X m X 
+4 | . . . . 1 1 1 1 2 m 
+5 | . 1 1 ? . . . . ? 1 
+6 | 1 2 m 1 . . . . . . 
+7 | X m ? 1 1 1 1 . 1 1 
+8 | X X X ? X m 1 . 1 m 
+9 | X ? X X m X 1 . ? X 
+GAME OVER

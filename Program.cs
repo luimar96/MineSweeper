@@ -6,38 +6,31 @@ namespace MineSweeper
     {
         static void Main(string[] args)
         {
-          char [,] board =new char[10,10];
+
+
            
-             //initialize
-          for (int row = 0; row < 10; row++)
-          {
-              for (int col = 0; col < 10; col++)
-              {
+            MineSweeper run = new MineSweeper(args);
+            run.Run();
 
-                  board[row,col]='X';
-              }
-              
-          }
-          
-         
-          
-          Console.WriteLine("    A B C D E F G H I J");
-          Console.WriteLine("  +---------------------");
-          for (int row = 0; row < 10; row++)
-          {
-              
-              Console.Write(row+" | ");
-              for (int col = 0; col < 10; col++)
-              {
-                   
-                   Console.Write(board[row, col]);
-                    Console.Write(" ");
 
-              }
-              Console.WriteLine();
-          }
+            /* GameSymbol symbol =GameSymbol.Flagged;//Enum typ är en heltals typ
+             System.Console.WriteLine((char)symbol);*/
+
+
+
+
+
+
+
+
+
+
+
         }
 
-
     }
+
+
+
+
 }
