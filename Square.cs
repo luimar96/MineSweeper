@@ -149,7 +149,7 @@ namespace MineSweeper
                 }
                 return true;
             }
-            else if( IsSweeped )
+            else if( IsSweeped || flagged )
             {
                 System.Console.WriteLine("not allowed");
             }
